@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.boy{
+    padding: 50px;
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+}
+.boy h1,nav,p,h3 {
+margin: 0;
+padding: 0;
+}
+.man{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.man a{
+color: white;
+text-decoration: none;
+margin: 0 15px;
+font-weight: bold;
+}
+.line{
+    border: none;
+    border-top: 2px solid darkslategray;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.avatar{
+  border-radius: 60%;
+  border: 4px solid darkslategrey;
+  object-fit: cover;  
+}
+#about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 40px auto;
+    width: 800px;
+}
+#interest{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 40px auto;
+    width: 800px;
+}
+#sex{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin: 40px auto;
+    width: 800px;
+}
+#sex a{
+text-decoration: none;
+}
+#contact{
+    color: black;
+    font-weight: bold;
+}
