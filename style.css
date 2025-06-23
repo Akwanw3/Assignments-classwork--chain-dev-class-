@@ -31,16 +31,20 @@ font-weight: bold;
     margin-bottom: 30px;
 }
 .avatar{
-  border-radius: 60%;
-  border: 4px solid darkslategrey;
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+  border: 4px solid darkslategrey
   object-fit: cover;  
 }
 #about{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: whitesmoke;
+    background-color: #f3f4f6;
     padding: 30px;
     margin: 40px auto;
     width: 800px;
+    border-radius: 10px;
+    border: 1px solid none;
 }
 #interest{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
