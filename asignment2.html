@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>company's page</title>
+    <link rel="stylesheet" href="resonate.css">
 </head>
 <body>
-   <header>
+   <header class="navbar">
     <img src="sucre.jpg" alt="loggo" width="30px" height="30px">
     <nav>
       <ul>
@@ -18,27 +19,33 @@
         <li><a href="#contact">Contact</a></li>
       </ul>  
     </nav>
-    <a href="#">Get Quote</a>
+    <a href="#contact" class="cta">Get Quote</a>
    </header>
    <main>
-    <section>
+    <section  class="hero">
+      <div class="hero-content">
         <h1>We Build Digital Solutions That Drive Results</h1>
         <p>Resconate delivers cutting-edgr web and mobile applications that transform businesses
             and engage users worldwide
         </p>
-        <a href="#">view our work</a>
-        <a href="#">Start Your Project</a>
+        <div class="buttons">
+        <a href="#project">view our work</a>
+        <a href="#contact" id="but">Start Your Project</a>
+        </div>
+        <div class="stats">
         <div><h3>0</h3><p>Project completed</p></div>
         <div><h3>0</h3><p>years experience</p></div>
         <div><h3>0</h3><p>happt clients</p></div>
         <div><h3>0</h3><p>Technologies</p></div>
+        </div>
+        </div>
     </section>
-    <section>
+    <section class="service" id="service">
       <h2>Our Services</h2>
       <p>We deliver comprehensive software solutions that drive business growth and user engagement</p>
-      <div>
-        <div>
-          <img src="" alt="web icon">
+      <div class="service-grid">
+        <div class="service-card">
+          <img src="download.png" alt="web icon"><br><br><br>
           <h3>Web Development</h3>
           <p>custom website , web applications, and e-commerce solutions built with cutting-edge Technologies</p>
           <ul>
@@ -47,8 +54,8 @@
             <li>Web Application Development</li>
           </ul>
         </div>
-        <div>
-          <img src="" alt="mobile icon">
+        <div class="service-card">
+          <img src="/download (2).png" alt="mobile icon"><br><br><br>
           <h3>Mobile Development</h3>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis at quis in eveniet vitae excepturi accusamus cum cumque quae, optio nihil eos maiores maxime veritatis a eum consectetur incidunt. Cum?</p>
           <ul>
@@ -58,31 +65,34 @@
           </ul>
         </div>
       </div>
-      <div>
+    </section>
+      <div class="image-grid">
       <img src="Screenshot 2025-01-15 042955.png" alt="stats image">
       <img src="Screenshot 2025-01-29 143208.png" alt="webpage image">
       <img src="Screenshot 2025-02-14 095411.png" alt="homepage image">
       </div>
-    </section>
-    <section>
+    
+    <section class="about">
       <p>ABOUT US</p>
       <h2>Our Story</h2>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit natus veritatis nulla numquam iste, et optio. Minus laboriosam officiis sequi quibusdam vero qui odit fugiat perferendis, quaerat magnam dolor dolorum.</p>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed illo vel praesentium a, animi quaerat quam fugit cumque doloribus, minus omnis blanditiis nemo nobis? Ad officiis nesciunt reprehenderit perferendis facilis.</p>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis illo placeat consectetur a sit vitae! Excepturi sapiente, iste consectetur explicabo, atque dolorum asperiores id nostrum cumque, nobis blanditiis voluptates eos.</p>
-      <div>
-        <img src="" alt="rocket icon">
+      <div class="pro-grid">
+        <div>
+         <img src="/download (5).png" alt="rocket icon">
         <h3>Our Mission</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsam soluta iusto officiis voluptatem, quisquam possimus optio eos laudantium labore et vel illo cum delectus reprehenderit. Provident a commodi tempore!</p>
       </div>
       <div>
-        <img src="" alt="vision icon">
+        <img src="/download (4).png" alt="vision icon">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, laboriosam aliquid fugit perferendis sapiente blanditiis ipsum accusantium veniam, deserunt quam officia pariatur magnam praesentium facere expedita cumque magni accusamus at.</p>
       </div>
       <div>
-        <img src="" alt="heart icon">
+        <img src="/download (3).png" alt="heart icon">
         <h3>Our Value</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dicta, animi, explicabo repudiandae cumque veritatis corrupti rem sunt hic non, quis iure sed repellendus? Mollitia unde ullam perspiciatis accusantium quibusdam.</p>
+      </div>
       </div>
     </section>
     <h2>Certifications</h2>

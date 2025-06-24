@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+}
+.navbar ul{
+list-style: none;
+display: flex;
+gap: 10px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1e293b;
+}
+.cta, nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #e2e8f0;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+nav a:hover{
+    color: #3b82f6;
+}
+.hero{
+    text-align: center;
+    padding: 100px 20px 60px;
+}
+.hero h1{
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #cbd5e1;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buttons{
+    margin-bottom: 40px;
+}
+.buttons a{
+    margin: 0 10px;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.buttons:hover{
+    
+    color: #0f172a;
+}
+.buttons.primary{
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+}
+.buttons.primary:hover{
+    background-color: #2563eb;
+    color: white;
+}
+#but{
+border: 2px solid white;
+background-color: transparent;
+border-radius: 10px;
+}
+.stats{
+   display: flex; 
+   justify-content: center;
+   gap: 40px;
+   margin-top: 40px;
+   flex-wrap: wrap;
+}
+.stats div{
+text-align: center;
+}
+.stats h3{
+    font-size: 2rem;
+}
+.service {
+    padding: 80px 20px;
+    text-align: center;
+}
+.service h2{
+  font-size: 2rem;  
+  margin-bottom: 10px;
+}
+.service p{
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+.service-grid{
+    display: flex;
+    gap:50px;
+    margin: 100px ;
+}
+.service-card{
+    padding: 30px ;box-shadow: 0 4px 6px;
+    width: 500px;
+}
+.service-card img{
+    float: left;
+    width: 60px;
+    margin-bottom: 10px;
+}
+.service-card ul{
+    list-style: armenian;
+}
+.image-grid img{
+    width: 300px; 
+    height: 300px;
+}
+.image-grid{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    gap: 100px;
+}
+.about{
+    text-align: center;
+    }
+    .about h2{
+        fom
+    }
